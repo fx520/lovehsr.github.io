@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.w_login_header{position:absolute;height:80px;z-index:1000;top:0px;width:1000px;left:50%;margin-left:-500px;}
+.w_loginBanner{       margin-top: 175px;
+    width: 405px;
+    height: 370px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;   
+    left: 58%;
+    right: 42%
+    bottom: 0px;}
+.w_login_header a img{height:45px;margin-top:20px;}
+.w_loin_link{text-align:center;}
+.w_loin_link a{line-height:30px;font-size:14px;color:#666;}
+.w_loin_link span{margin-left:5px;margin-right:5px;color:#ccc;}
+.w_login_footer{padding-top:20px;padding-bottom:20px;}
+.w_login_footer p.text{font-size:14px;line-height:24px;color:#666;text-align:center;}
+
+.sller_form{       border-top: 6px solid #0099cc;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 1px;
+    padding: 50px;
+    height: 260px;
+    width: 301px;
+    background: #ffffff70;
+    border-radius: 5px;
+    overflow: hidden;}
+.sller_form h3{    font-size: 35px;
+    line-height: 32px;
+    text-align: center;
+    margin: 0px;
+    font-family: monospace;}
+.sller_form p{    font-size: 14px;
+    font-family: initial;
+    color: #999;
+    line-height: 18px;
+    text-align: center;
+    padding-bottom: 10px;}
+.seller_line{height:40px;margin:20px 0px 0px 0px;}
+.seller_line .seller_input{width:253px;font-size:14px;border:1px solid #eee;padding:5px 5px 5px 40px;height:30px;border-radius:3px;}
+.seller_line .seller_input.user{    font-size: 16px;
+    font-family: cursive;background:url(../img/selell_user_1.png) 10px center no-repeat #f5f5f57d;background-size:20px;}
+.seller_line .seller_input.user:focus{color:#0099cc;border:1px solid #0099cc;background:url(../img/selell_user.png) 10px center no-repeat #ffffff;background-size:20px;}
+
+.seller_line .seller_input.pwd{    font-size: 16px;
+    font-family: cursive;background:url(../img/selell_user-3.png) 10px center no-repeat #f5f5f57d;background-size:20px;}
+.seller_line .seller_input.pwd:focus{color:#0099cc;border:1px solid #0099cc;background:url(../img/selell_user_2.png) 10px center no-repeat #ffffff;background-size:20px;}
+
+
+.seller_line .seller_button{    opacity: 0.7;
+    font-size: 25px;
+    font-family: "kaiti";
+    padding: 5px 5px 5px 5px;
+    background: #0099cc;
+    color: #fff;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;}
+.seller_line .seller_button:hover{opacity:1}
+.bind-login {
+    position: relative;
+    width: 310px;
+    margin: 30px auto;
+    border-top: 1px solid #ddd;
+    text-align:center;
+    padding: 19px 0 17px;}
+.bind-login .title {
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    margin-left: -64px;
+    color: #999;
+    width: 128px;
+    background: #fff;
+    text-align: center;
+}
+.bind-login a{line-height:24px;}
+.bind-login span.gk{color:#ddd;line-height:24px;}
+.bind-login a{margin-left:5px;margin-right:5px;}
