@@ -16,14 +16,15 @@
 .w_login_footer{padding-top:20px;padding-bottom:20px;}
 .w_login_footer p.text{font-size:14px;line-height:24px;color:#666;text-align:center;}
 
-.sller_form{       border-top: 6px solid #0099cc;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px 1px;
+.sller_form{      
+	box-shadow: rgba(247, 240, 237, 0.19) 0px 1px 3px 1px;
     padding: 50px;
     height: 260px;
     width: 301px;
-    background: #ffffff70;
+    background: #f5efee00;
     border-radius: 5px;
-    overflow: hidden;}
+    overflow: hidden;
+    }
 .sller_form h3{    font-size: 35px;
     line-height: 32px;
     text-align: center;
@@ -38,11 +39,11 @@
 .seller_line{height:40px;margin:20px 0px 0px 0px;}
 .seller_line .seller_input{width:253px;font-size:14px;border:1px solid #eee;padding:5px 5px 5px 40px;height:30px;border-radius:3px;}
 .seller_line .seller_input.user{    font-size: 16px;
-    font-family: cursive;background:url(../img/selell_user_1.png) 10px center no-repeat #f5f5f57d;background-size:20px;}
+    font-family: cursive;background:url(../img/selell_user_1.png) 10px center no-repeat #e0a5c691;background-size:20px;}
 .seller_line .seller_input.user:focus{color:#0099cc;border:1px solid #0099cc;background:url(../img/selell_user.png) 10px center no-repeat #ffffff;background-size:20px;}
 
 .seller_line .seller_input.pwd{    font-size: 16px;
-    font-family: cursive;background:url(../img/selell_user-3.png) 10px center no-repeat #f5f5f57d;background-size:20px;}
+    font-family: cursive;background:url(../img/selell_user-3.png) 10px center no-repeat #e0a5c691;background-size:20px;}
 .seller_line .seller_input.pwd:focus{color:#0099cc;border:1px solid #0099cc;background:url(../img/selell_user_2.png) 10px center no-repeat #ffffff;background-size:20px;}
 
 
@@ -50,7 +51,7 @@
     font-size: 25px;
     font-family: "kaiti";
     padding: 5px 5px 5px 5px;
-    background: #0099cc;
+    background: #d785b4;
     color: #fff;
     border: 0px;
     width: 100%;

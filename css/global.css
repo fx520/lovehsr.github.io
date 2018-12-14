@@ -1,0 +1,72 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* {margin: 0;outline: 0;padding: 0;}
+body {background:#f0d0a9 url(../images/top.jpg) center top no-repeat;font-family: "Microsoft Yahei";margin: 0;padding: 0;color:#333;}
+body, form, ul, ol, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd, table, fieldset, hr, div {margin: 0;padding: 0;}
+img {border: 0 none;}
+ul, ol, li {list-style-type: none;}
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+:focus { outline: none; }
+a {outline: medium none;text-decoration: none;color:#333;display:inline-block;}
+a:hover{text-decoration: underline;}
+em {font-style: normal;}
+i{font-style: normal;}
+input[type="button"], input[type="submit"], input[type="reset"] {
+-webkit-appearance: none;}
+.clear {zoom: 1;}
+*:focus {outline: none;}
+*{-webkit-tap-highlight-color: transparent;  border:0}
+/*-----------------字体粗细--------------------*/
+.fw-bold{ font-weight:bold;}
+.fw-normal{ font-weight:normal;}
+
+/*-----------------浮动定位--------------------*/
+.fl {float: left;}
+.fr {float: right;}
+.pr { position:relative;}
+.pa { position:absolute;}
+/*-----------------背景颜色--------------------*/
+.bg-f26868{background:#998e6b;}
+/*-----------------字体颜色--------------------*/
+.c-f26868{color:#996c39;}
+.c-fff{color:#fff;}
+/*-----------------边框颜色--------------------*/
+.bt-dcdddd{ border-top:1px solid #dcdddd}
+.bb-dcdddd{ border-bottom:1px solid #dcdddd}
+.br5{ border-radius:5px;}
+.br3{ border-radius:3px;}
+.bn { border:none;}
+/*-----------------水平垂直对齐--------------------*/
+.tac{text-align:center;}
+/*-----------------转换元素--------------------*/
+.dis-n {display: none;}
+.dis-b {display: block;}
+.dis-ib {display: inline-block;}
+.of-h{overflow:hidden;}
+/*-------------------- 边距 --------------------*/
+.mt20{margin-top:20px;}
+/*头部*/
+header{width:100%;height:280px;}
+.header-box{width:1050px;height:88px;margin:0 auto;}
+.header-box .logo{width:20%;display:inline-block;float:left;}
+.header-box .logo img{width:268px;margin-top:66px;}
+.warning{display:inline-block;padding-left:580px;width:15%;}
+.warning img{width:268px;margin-top:38px;}
+/*导航*/
+.nav{background:url(../images/menu_bg.png) top center repeat;width:100%;height:50px;margin-top:-10px;}
+.nav ul{width:1050px;margin:0 auto;font-size:16px;}
+.nav ul a{color:#fff;height:50px;line-height:50px;padding:3px 15px;font-weight:bold;}
+.nav ul a:hover{background:#dcba9a;text-decoration:none;border-radius:0px 30px;}
+.nav ul .current{background:#dcba9a;border-radius:0px 30px;}
+.nav ul li{float:left;margin:0 23px;}
+/*底部*/
+.blank1{width:100%;height:1px;clear:both;font-size:0px;}
+.blank5{width:100%;height:5px;clear:both;font-size:0px;}
+.blank10{width:100%;height:10px;clear:both;font-size:0px;}
+.blank15{width:100%;height:15px;clear:both;font-size:0px;}
+.blank20{width:100%;height:20px;clear:both;font-size:0px;}
+.dashed-border{width:100%;height:1px; border-top:1px dashed #ccc;font-size:0px;}
+.border{width:100%;height:1px; border-top:1px solid #ccc;font-size:0px;}
+footer{width:100%;height:50px;background:#ddbb9b;font-size:14px;line-height:50px;color:#222;text-align: center;margin-top:66px;}
+footer a{color:#222;}
+footer p{background:#ddbb9b;margin-top:-13px;}
