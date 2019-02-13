@@ -71,6 +71,7 @@ section{background:#f8f6f2;width:1050px;margin:18px auto;overflow:hidden;border-
 .icon-like a { color: #B5783E }
 .icon-like a:hover { color: #FFF; text-decoration: underline }
 .music audio { width: 100%; padding-top: 10px }
+.art_txt {padding-top: 10px;}
 /*文章*/
 article{padding-top:20px;}
 .art-left{width:690px;overflow:hidden;float: left;border-right:1px dashed #ccc;padding-right:20px;}
