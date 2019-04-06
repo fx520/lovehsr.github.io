@@ -38,7 +38,9 @@ height: 0;
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 .hidden{display:none;}
 .last{border-bottom:none !important;}
-
+img {
+    width: 130px;
+}
 .xinqing { width:940px;margin:18px auto 0 auto;}
 .left { width:140px;border-bottom:2px solid #DDD;background:#FFF;float:left; }
 .left li:hover { border-left:3px solid #0066ff; }
