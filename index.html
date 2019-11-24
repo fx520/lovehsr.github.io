@@ -1,73 +1,73 @@
 <!doctype html>
-<html>
+<html lang="en" class="no-js">
 	<head>
-		<meta charset="utf-8">
-		<title>两只小猪仔--登录</title>
-		<meta name="keywords" content="两只小猪仔">
-		<meta name="description" content=" 两只小猪仔 情侣空间">
-		<meta name="author" content="两只小猪仔">
-		<script src="js/jquery.min.js"></script>
-		<link rel="shortcut icon" href="web/avicon.ico">
-		<link rel="stylesheet" href="css/index.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<style>
-			/*样式初始化*/
-			html,body{
-				margin: 0;
-				padding: 0;
-				/*background-image: url("img/login_b.jpg");*/
-				background-repeat: no-repeat;
-				/*background-size: 1966px 1010px;*/
-				background-size: cover;
-			}
-			canvas {
-				width: 100%;
-				height: 100%;
-				position: absolute;
-			}
-		</style>
+		<meta charset="UTF-8" />
+		<!--ico-->
+		<link rel="shortcut icon" href="img/small-icons/lovehsr_ico.ico">
+		<meta name="author" content="繁星博客">
+		<meta name="description" content="gcwlovelsr">
+		<meta name="keywords" content="gcwhsr 情侣空间 甘存威爱淮思蕊">
+		 <!--为了避免制作出的页面在IE8下面出现错误，建议直接将IE8使用IE7进行渲染-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>love-hsr</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<!--必要样式-->
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!--[if IE]>
+			<script src="js/login/html5.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
-
-		<div class="w_loginBanner" id="bg">
-			<form  action="LoveIndex.html" onSubmit="return checkForm()" >
-			<div class="sller_form">
-				<h3>两只小猪仔</h3>
-				<p>Love the space</p>
-				<div class="seller_line">
-					<input type="text" id="name" class="seller_input user" placeholder="登录账号" required="required" >
-				</div>
-				<div class="seller_line">
-					<input type="password" id="password" class="seller_input pwd" placeholder="登录密码"/>
-				</div>
-				<div class="seller_line">
-					<button type="submit" class="seller_button" id="login">登&nbsp;&nbsp;&nbsp;&nbsp;录</button>
+		
+		<!--login-->
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<div class="logo_box">
+						<h3>
+							<img src="img/small-icons/love.png"/>
+								<span style="color: #ff000082;">
+									&nbsp;&nbsp;甘存威&nbsp;
+									&hearts;love&hearts;
+									&nbsp;&nbsp;淮思蕊&nbsp;&nbsp;
+								</span>
+							<img src="img/small-icons/love.png"/>
+						</h3>
+						<!--form-->
+						<!--action="" 根据输入密码的不同来选择样式 html/one/lovehsr.html--> 
+						<form action="https://繁星2018.top/nr/"  onSubmit="return checkForm()">
+							<div class="input_outer">
+								<span class="u_user"></span>
+								<input name="logname"  id="name" class="text" style="color: #333 !important" type="text" placeholder="昵称" required="required">
+							</div>
+							<div class="input_outer">
+								<span class="us_uer"></span>
+								<input name="logpass"  id="password" class="text" style="color: #333 !important; position:absolute; z-index:100;" type="password" placeholder="密码" required="required">
+							</div>
+							<div class="mb2">
+								<button ype="submit" class="act-but submit" id="login" style="color: #FFFFFF">
+									登&nbsp;&nbsp;&nbsp;&nbsp;录
+								</button>
+							</div>
+						</form>
+						
+					</div>
 				</div>
 			</div>
 		</div>
-		</form>
-		<script type="text/javascript">	
-		 function checkForm(){
-		 	var username = document.getElementById('name');
-		 	var psd= document.getElementById('password');
-		 	var name="淮宝宝";
-		 	var pas="1314";
-		 	if((username.value==name)&&(psd.value==pas)){
-		 		alert("亲爱的乖乖，欢迎进入咱们的空间");
-		 		window.location.href="LoveIndex.html";
-		 		return true;
-		 	}
-		 	else{
-		 		alert("密码写错啦");
-		 		return false;
-		 	}
-		 }
-		</script>
-
-		<!--粒子特效-->
-		<canvas></canvas>
-		<script type="text/javascript" src="js/index.js"></script>
+		
+		<!-- /container -->
+		<script src="js/login/EasePack.min.js"></script>
+		<script src="js/login/TweenLite.min.js"></script>
+		<script src="js/login/rAF.js"></script>
+		<script src="js/login/demo-1.js"></script>
+		<!-- /password-->
+		<script src="js/login/login.js" type="text/javascript" charset="utf-8"></script>
+		
 	</body>
 
 </html>
