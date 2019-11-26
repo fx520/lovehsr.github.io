@@ -1,5 +1,5 @@
 .demo {
-    width: 360px;
+    width: 280px;
     /*margin: 160px auto;*/
     border-radius: 10px;
 }
@@ -12,6 +12,8 @@
 }
 
 body {
+	margin: 0;
+	padding: 0;
 	height: 595px;
 	width: 900px;
 	background-size: 1000px 968px;
