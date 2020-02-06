@@ -1,20 +1,23 @@
 function checkForm() {
 	var username = document.getElementById('logname');
 	var psd = document.getElementById('logpass');
-
-	if((username.value =="淮思蕊") && (psd.value =="520")) {
+	var a = "淮思蕊";
+	var b = "520";
+	if((username.value == a) && (psd.value == b)) {
 		alert("欢迎访问gcwlovehsr的情侣空间！");
-		window.location.href = "https://繁星2018.top/nr/";
+		self.location.href= "https://繁星2018.top/nr/";
 		return true;
 	}
-	if((username.value == "1314") && (psd.value == "520")) {
+	var a1 = "1314";
+	var b2= "520";
+	if((username.value ==a1) && (psd.value == b2)) {
 		alert("欢迎访问love-H的情侣空间！");
-		window.location.href = "https://gcwlovehsr.top/html/one/lovehsr.html";
+		self.location.href = "https://gcwlovehsr.top/html/one/lovehsr.html";
 		return true;
 	}
-	// if((username.value != name) && (psd.value != pas)){
-	// 	alert("写错了哟");
-	// 	return false;
-	// }
-	
+	 else{
+	 	alert("写错了哟");
+	 	return false;
+	 }
+
 }

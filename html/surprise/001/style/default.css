@@ -1,0 +1,103 @@
+/*Download by http://www.mycodes.net*/
+/*
+html {
+	height: 100%;
+}*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "ËÎÌו";
+	background: url('../img/nuanrui.jpg') no-repeat;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+#mainDiv {
+	width: 100%;
+	height: 100%;
+}
+#loveHeart {
+	float: left;
+	width: 670px;
+	height: 625px;
+}
+#garden {
+	width: 100%;
+	height: 100%;
+}
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#words {
+	font-family: "sans-serif";
+	width: 505px;
+	font-size: 18px;
+	color: #e97d5b
+}
+#messages {
+	display: none
+}
+#elapseClock .digit {
+	font-family: "digit";
+	font-size: 36px;
+}
+#loveu {
+	padding: 3px;
+	font-size: 22px;
+	margin-top: 80px;
+	margin-right: 120px;
+	text-align: right;
+	display: none;
+}
+#loveu .signature {
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+#code {
+	float: left;
+	width: 440px;
+	height: 400px;
+	color: #21dcd4;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 12px;
+}
+#code .string {
+	color: #21dcd4
+}
+#code .keyword {
+	color: #FFFFCC;
+	font-weight: bold;
+}
+#code .placeholder {
+	margin-left: 15px;
+}
+#code .space {
+	margin-left: 10px;
+}
+#code .comments {
+	color: orange;
+}
+#copyright {
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+	color: #666;
+}
+#errorMsg {
+	width: 100%;
+	text-align: center;
+	font-size: 26px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+}
+#copyright a {
+	color: #e97d5b;
+}
+#accept{
+	color: #e97d5b;
+}
