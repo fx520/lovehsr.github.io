@@ -3,6 +3,7 @@
 - 1.登录页面
 - 2.主页面
 
+https://fx520.github.io/lovehsr.github.io/
 # 主要内容 
 - 日志
 - 相册
